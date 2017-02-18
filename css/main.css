@@ -1,0 +1,120 @@
+
+
+.greeting {
+    text-align: center;
+    font-size: 64px;
+    background-color: grey;
+    width: 50vw;
+    position: relative;
+    margin: auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.giphy-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.topTv {
+  width: 500px;
+  height: 500px;
+  background-image: url("https://openclipart.org/image/2400px/svg_to_png/222055/OldTV.png") no-repeat center center fixed;
+}
+.giphy-top-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 58px;
+}
+
+.userPic {
+  width: 95%;
+  height: 100px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px auto;
+  box-shadow: 14px 14px 10px -1px;
+  list-style-type: none;
+}
+
+.userPic-ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.userPic-li {
+  display: list-item;
+}
+
+p {
+    margin: 0 0 10px;
+    text-align: center;
+    position: relative;
+    top: 16px;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background: rgba(200, 200, 200, .5);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-top: 25px;
+    text-align: center;
+    cursor: pointer;
+    overflow: auto;
+    font-size: large;
+}
+
+.suggestions {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.col-lg-6 {
+  width: 100% !Important;
+}
+.input-group {
+  width: 80%;
+  margin: auto;
+}
+
+.giphy-image {
+  width: 65px;
+  height: 65px;
+  margin-left: 10px;
+  margin-top: 8px;
+  margin-right: 10px;
+  display: block;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+
+.giphy-screen {
+  width: 459px;
+  height: 223px;
+  margin: 30px auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+}
+
+.giphy-screen-image {
+  width: 459px;
+  height: 223px;
+}
