@@ -1,4 +1,4 @@
-<div class="thumbs"> <!--copy-->
+<div class="thumbs">
   <li ng-repeat="item in giphyInfo track by $index" >
     <img id="gif-images" ng-src="{{item.images.fixed_height.url}}" ng-click="bigPicture(item)"/>
   </li>

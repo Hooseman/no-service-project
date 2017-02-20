@@ -1,7 +1,7 @@
 angular.module('app').service('mainService', function($http,$q) {
-  var randomBaseUrl = 'http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC';
+  var randomBaseUrl = 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC';
   // Break up the url into smaller parts
-  var baseUrl = 'http://api.giphy.com/v1/gifs/';
+  var baseUrl = 'https://api.giphy.com/v1/gifs/';
   var apiKey = '&api_key=dc6zaTOxFJmzC';
 
   this.getGiphy = function() {

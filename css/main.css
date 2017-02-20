@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
 
+.leftside{
+  width: 100px;
+  height: 100vh;
+  background-color: #2F4F4F;
+}
 
 .greeting {
     text-align: center;
@@ -9,59 +15,157 @@
     margin: auto;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    font-family: 'Play', sans-serif;
+    letter-spacing: 37px;
+    color: white;
 }
 
 .giphy-top {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.hangman-container {
+    padding: 20px;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.flex-stretch {
+    flex: 1;
+}
+
+.left {
+    flex-basis: 20%;
+}
+
+.inputBoxes {
+    width: 35px;
+    margin: 0 10px;
+    border-style: solid;
+    border-right: black;
+    border-top: black;
+    border-left: black;
+}
+
+.reload {
+    width: 218px;
+    height: 75px;
+    position: relative;
+    display: flex;
+    left: 314px;
+    bottom: 99px;
+    justify-content: center;
+    border-radius: 50px;
+    color: white;
+    background-color: grey;
+    font-family: 'Play', sans-serif;
+}
+
+.reloadHome {
+    width: 82px;
+    height: 82px;
+    border-radius: 50px;
+    display: flex;
+    position: relative;
+    left: 904px;
+    bottom: 390px;
+    opacity: -0.5;
 }
 
 .topTv {
-  width: 500px;
-  height: 500px;
-  background-image: url("https://openclipart.org/image/2400px/svg_to_png/222055/OldTV.png") no-repeat center center fixed;
+    width: 600px;
+    height: 400px;
+    background-image: url("https://openclipart.org/image/2400px/svg_to_png/222055/OldTV.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: auto;
+    top: 20px;
 }
+
+.macBg {
+    width: 607px;
+    height: 400px;
+    background-image: url(https://openclipart.org/image/2400px/svg_to_png/159331/MoonBook.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 77px;
+    bottom: 10px;
+}
+
 .giphy-top-image {
-  width: 300px;
-  height: 300px;
-  margin-bottom: 30px;
-  position: relative;
-  top: 58px;
+    width: 377px;
+    height: 246px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 41px;
+    right: 57px;
+    border-radius: 10px;
+}
+
+.bottomButton {
+    width: 200px;
+    position: relative;
+    left: 612px;
+    margin-top: 30px;
+    font-family: 'Play', sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: grey;
+}
+
+.bottomButton: hover {
+  background-color: black;
 }
 
 .userPic {
-  width: 95%;
-  height: 100px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: black;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  display: flex;
-  justify-content: flex-start;
-  margin: 15px auto;
-  box-shadow: 14px 14px 10px -1px;
-  list-style-type: none;
+    width: 95%;
+    height: 100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px auto;
+    list-style-type: none;
 }
 
 .userPic-ul {
-  list-style-type: none;
-  display: flex;
+    list-style-type: none;
+    display: flex;
 }
 
 .userPic-li {
-  display: list-item;
+    display: list-item;
 }
 
 p {
     margin: 0 0 10px;
     text-align: center;
     position: relative;
-    top: 16px;
+    top: 29px;
 }
+
 .circle {
     width: 100px;
     height: 100px;
@@ -83,38 +187,99 @@ p {
     margin-bottom: 50px;
 }
 
-.col-lg-6 {
-  width: 100% !Important;
+.searchHomeOne {
+    width: 234px;
+    position: relative;
+    left: 400px;
 }
+
+.searchButtonHomeOne {
+    width: 74px;
+    height: 25px;
+    margin-left: 10px;
+    position: relative;
+    top: 1px;
+    left: 430px;
+}
+
+.col-lg-6 {
+    width: 100% !Important;
+}
+
 .input-group {
-  width: 80%;
-  margin: auto;
+    width: 80%;
+    margin: auto;
 }
 
 .giphy-image {
-  width: 65px;
-  height: 65px;
-  margin-left: 10px;
-  margin-top: 8px;
-  margin-right: 10px;
-  display: block;
-  cursor: pointer;
-  border-radius: 5px;
-  border: 1px solid white;
+    width: 65px;
+    height: 65px;
+    margin-left: 10px;
+    margin-top: 8px;
+    margin-right: 10px;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid white;
 }
 
-
 .giphy-screen {
-  width: 459px;
-  height: 223px;
-  margin: 30px auto;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-  border-image: initial;
+    width: 459px;
+    height: 223px;
+    margin: 30px auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
 }
 
 .giphy-screen-image {
-  width: 459px;
-  height: 223px;
+    width: 415px;
+    height: 265px;
+    position: relative;
+    left: 94px;
+    top: 23px;
+}
+
+.giphy-screen-image-one {
+    width: 484px;
+    height: 330px;
+    position: relative;
+    right: 11px;
+    background-color: white;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+    position: relative;
+    top: 123px;
+}
+
+.letsPlay {
+    width: 441px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 203px;
+    margin-top: 9px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    background-color: grey;
+    color: white;
+}
+
+.projector {
+    background-image: url(https://openclipart.org/image/2400px/svg_to_png/59527/projetor.png);
+    width: 600px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    bottom: 382px;
+    position: relative;
+    right: 35px;
 }

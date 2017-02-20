@@ -1,0 +1,112 @@
+.none {
+        background: url('../images/spritebig.png') no-repeat -101px 0;
+        width: 353px;
+        height: 559px;
+    }
+
+    .first-error {
+        background: url('../images/spritebig.png') no-repeat -101px 0;
+        width: 518px;
+        height: 559px;
+    }
+
+    .second-error {
+        background: url('../images/spritebig.png') no-repeat -725px 0;
+        width: 467px;
+        height: 559px;
+    }
+
+    .third-error {
+        background: url('../images/spritebig.png') no-repeat -1349px 0;
+        width: 428px;
+        height: 562px;
+    }
+
+    .fourth-error {
+        background: url('../images/spritebig.png') no-repeat -1973px 0;
+        width: 353px;
+        height: 574px;
+    }
+
+    .fifth-error {
+        background: url('../images/spritebig.png') no-repeat -104px -575px;
+        width: 353px;
+        height: 566px;
+    }
+
+    .sixth-error {
+        background: url('../images/spritebig.png') no-repeat -728px -575px;
+        width: 353px;
+        height: 575px;
+    }
+
+    .seventh-error {
+        background: url('../images/spritebig.png') no-repeat -1352px -575px;
+        width: 353px;
+        height: 560px;
+    }
+
+    .eighth-error {
+        background: url('../images/spritebig.png') no-repeat -1976px -575px;
+        width: 353px;
+        height: 560px;
+    }
+
+    .ninth-error {
+        background: url('../images/spritebig.png') no-repeat -101px -1151px;
+        width: 353px;
+        height: 560px;
+    }
+
+    .ten-error {
+        background: url('../images/spritebig.png') no-repeat -725px -1151px;
+        width: 353px;
+        height: 560px;
+    }
+
+    .eleven-error {
+        background: url('../images/spritebig.png') no-repeat -1349px -1151px;
+        width: 353px;
+        height: 560px;
+    }
+
+    .twelve-error {
+        background: url('../images/spritebig.png') no-repeat -1973px -1151px;
+        width: 353px;
+        height: 560px;
+    }
+
+    .thirteen-error {
+        background: url('../images/spritebig.png') no-repeat -101px -1727px;
+        width: 353px;
+        height: 560px;
+    }
+
+    .fourteen-error {
+        background: url('../images/spritebig.png') no-repeat -725px -1727px;
+        width: 353px;
+        height: 563px;
+    }
+
+    .fifteen-error {
+        background: url('../images/spritebig.png') no-repeat -1343px -1727px;
+        width: 359px;
+        height: 560px;
+    }
+
+    .sixteen-error {
+        background: url('../images/spritebig.png') no-repeat -1925px -1727px;
+        width: 401px;
+        height: 560px;
+    }
+
+    .seventeen-error {
+        background: url(../images/images.png) no-repeat 0 0;
+        width: 404px;
+        height: 504px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        left: 70px;
+    }
+}

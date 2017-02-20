@@ -1,0 +1,172 @@
+.parallax {
+    background: url("../images/hello.jpeg") no-repeat center center fixed;
+    min-height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    ;
+    background-position: center;
+}
+
+.parallax-two {
+    background: url("http://bit.ly/2kDbgFV") no-repeat center center fixed;
+    min-height: 250px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    ;
+    background-position: center;
+}
+
+.parallaxthree {
+  background: url("http://bit.ly/2lEHVuo") no-repeat center center fixed;
+  min-height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  ;
+  background-position: center;
+}
+
+.onethree {
+    height: 100px;
+    background-color: black !important;
+    font-size: 36px;
+    color: white;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.one {
+    height: 273px;
+    background-color: black;
+    font-size: 36px;
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+
+.one-two {
+    height: 412px;
+    background-color: black;
+    font-size: 36px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    overflow: auto;
+}
+
+.about-buttons {
+    width: 10px;
+    height: 10px;
+}
+
+.mentor {
+    width: 100px;
+    height: 28px;
+    overflow: overlay;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 51px;
+}
+
+.sterling {
+    width: 500px;
+    height: 318px;
+    position: relative;
+    left: 468px;
+    border-radius: 50px;
+    bottom: 70px;
+}
+
+.john {
+    width: 500px;
+    height: 326px;
+    position: relative;
+    left: 468px;
+    border-radius: 50px;
+    bottom: 254px;
+}
+
+.gus {
+    width: 500px;
+    height: 318px;
+    position: relative;
+    left: 468px;
+    border-radius: 50px;
+    bottom: 164px;
+}
+
+.mentor {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    -webkit-animation: mentorone 15s infinite;
+    -webkit-animation-direction: alternate;
+    animation: mentortwo 10s infinite;
+    animation-direction: alternate;
+    bottom: 10px;
+}
+
+@-webkit-keyframes mentorone {
+    0% {
+        background: white;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background: grey;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background: #2F4F4F;
+        left: 200px;
+        top: 50px;
+    }
+    75% {
+        background: darkgrey;
+        left: 0px;
+        top: 50px;
+    }
+    100% {
+        background: lightgrey;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@keyframes mentortwo {
+    0% {
+        background: white;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background: grey;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background: #2F4F4F;
+        left: 200px;
+        top: 50px;
+    }
+    75% {
+        background: darkgrey;
+        left: 0px;
+        top: 50px;
+    }
+    100% {
+        background: lightgrey;
+        left: 0px;
+        top: 0px;
+    }
+}

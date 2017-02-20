@@ -3,9 +3,15 @@ angular.module('app').service('gameService', function( ) {
     var possibleTerms = [
       "punisher",
       "wrench",
-      "rocket"
+      "rocket",
+      "lukeskywalker",
+      "deathstar",
+      "bunny",
+      "starfleet"
     ];
     var termIndex = Math.floor(Math.random()*((possibleTerms.length - 1) - 0 + 1) + 0);
     return possibleTerms[termIndex];
   }
+
+
 });

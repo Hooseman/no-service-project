@@ -6,8 +6,7 @@ angular.module('app',['ui.router','ngClipboard'])
     $stateProvider
     .state('login', {
       url:'/',
-      templateUrl:"./login.html",
-      controller: "loginCtrl"
+      templateUrl:"./views/login.html"
     })
 
     .state('home', {
@@ -24,19 +23,14 @@ angular.module('app',['ui.router','ngClipboard'])
 
     .state('about', {
       url:'/about',
-      templateUrl:"./about.html"
+      templateUrl:"./about.html",
+      controller: 'aboutCtrl'
 
     })
     .state('game',{
       url:'/game',
-      templateUrl:"./game.html"
-
-    })
-    .state('play', {
-      url:'/play',
-      templateUrl:"./play.html",
-      controller: ''
-
+      templateUrl:"./game.html",
+      controller: 'gameCtrl'
     })
     .state('giphy', {
         url: '/giphy/:genre',
@@ -48,6 +42,5 @@ angular.module('app',['ui.router','ngClipboard'])
           }
         }
       })
-    // $urlRouterProvider
-    //         .otherwise('/');
+
   });

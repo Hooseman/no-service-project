@@ -1,2 +1,28 @@
-<h1>Game on</h1>
-<button><a ui-sref="play"> Game On </a></button>
+<div class="flex-row flex-stretch">
+  <div class="flex-col flex-stretch left">
+    <button class="letsPlay" ng-click="getGameTerm()">Click to Begin</button>
+    <div class="giphy-screen">
+      <img class="giphy-screen-image-one" ng-src="{{giphy.images.original.url}}"/>
+      <div class="projector"></div>
+  </div>
+    <img ng-show="notMatching" src="../images/notMatching.png" height="50px" width="50px" />
+    <img ng-show="matching" src="../images/checkmark.png" height="50px" width="50px" />
+    <div class="flex-row">
+        <div class="flex-col inputBoxes" ng-repeat="input in inputBoxes track by $index">
+            <input ng-model="model[input.character]" ng-change="checkGuess(input, model[input.character], $index)" placeholder="?" type="text" maxlength="1" />
+        </div>
+    </div>
+  </div>
+  <div class="flex-col flex-stretch hangman-container">
+    <div class="flex-row error-display">
+      <div class="flex-col error" ng-repeat="error in errorDisplay track by $index">
+          <img src="../images/notMatching.png" height="20px" width="20px" />
+      </div>
+      <div class="flex-col error" ng-repeat="check in checkDisplay track by $index">
+          <img src="../images/checkmark.png" height="20px" width="20px" />
+      </div>
+    </div>
+    <div ng-class="getHangmanStatus()"></div>
+  </div>
+</div>
+<input class="reload" type="button" value="Too Hard Click Here to Try Again" onclick="location.reload();" />

@@ -18,8 +18,7 @@ angular.module('app').controller('homeCtrl',function($scope, $interval, $statePa
       $route.reload();
     })
   }
-  //
-  // $scope.getUserGiphy(starwars)
+
 
   var randomHashTags = [   //copy
       'starwars',

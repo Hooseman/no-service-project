@@ -2,5 +2,14 @@
 
 .nav{
   background-color: black;
+  font-family: 'Play', sans-serif;
+}
 
+.nav-pills>li>a {
+    border-radius: 4px;
+    color: white;
+}
+
+body {
+  background-color: #A9A9A9;
 }
